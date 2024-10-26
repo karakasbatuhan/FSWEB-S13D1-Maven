@@ -9,7 +9,7 @@ public class Main {
         if(isBarking == true && clock > 20){
             isBarking = true;
         }
-        else if(isBarking && clock < 8){
+        else if(isBarking && clock < 8 && clock > 0){
             isBarking = true;
         }
         else{
